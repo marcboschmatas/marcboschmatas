@@ -1,16 +1,35 @@
-## Hi there 👋
+## Hola! 👋
 
-<!--
-**marcboschmatas/marcboschmatas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+marc <- list(name = "Marc",
+             location = "Barcelona",
+             role = "Policy researcher",
+             organisation = "Ivàlua",
+             code = list("R" = list("level" = "getting_better",
+                                    "philosophy" = c("tinyverse",
+                                                     "base_r",
+                                                     "pragmatic"),
+                                    "stuff_I_do" = c("data_wrangling",
+                                                     "data_visualisation",
+                                                     "econometrics",
+                                                     "geospatial",
+                                                     "shiny",
+                                                     "quarto")),
+                         "typst" = list("level" = "basic"),
+                         "linux" = list("level" = "basic")),
+             interests = list("policy" = list("data_engineering",
+                                              "reproducible_analytic_pipelines",
+                                              "mixed_methods",
+                                              "data_linkage"),
+                              "geospatial" = list("OpenStreetMap",
+                                                  "sf"),
+                              "open_data" = list("APIs",
+                                                 "open_by_default",
+                                                 "open_data_activism")),
+             projects_and_contributions = list("OpenStreetMap" = "https://github.com/OSM-Catalan/portals_bcn",
+                                               "Others" = "https://github.com/vincentarelbundock/tinytable"),
+             stuff_to_learn = c("more_econometrics",
+                                "some_stata",
+                                "some_devops",
+                                "more_linux"))
+```
